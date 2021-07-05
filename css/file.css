@@ -181,6 +181,13 @@
   text-align: left;
 }
 
+.item-text {
+  color: #252B42;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
 .card {
   background-color: #252B42;
   height: 705px;
@@ -192,6 +199,10 @@
 
 .card .card-item__title {
   margin-top: 70px;
+}
+
+.card .item-text {
+  color: #fff;
 }
 
 @media (max-width: 1024px) {
@@ -228,9 +239,12 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 330px) {
   .card-item__box {
     min-width: 310px;
     margin: 10px 5px;
+  }
+  .header {
+    margin-bottom: 20px;
   }
 }

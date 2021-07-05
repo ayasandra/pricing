@@ -143,6 +143,13 @@
    text-align: left;
 }
 
+.item-text {
+   color: $dark;
+   font-weight: 600;
+   font-size: 0.875rem;
+   line-height: 1.5rem;
+}
+
 .card{
    background-color: $dark;
    height: 705px;
@@ -151,6 +158,9 @@
    }
    .card-item__title {
       margin-top: 70px;
+   }
+   .item-text {
+      color: #fff;
    }
 }
 
@@ -183,9 +193,12 @@
    }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px + 10) {
    .card-item__box {
       min-width: 310px;
       margin: 10px 5px;
+   }
+   .header {
+      margin-bottom: 20px;
    }
 }
