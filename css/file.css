@@ -27,7 +27,7 @@
 
 .header__title {
   font-weight: 700;
-  color: #252B42;
+  color: #252b42;
   font-size: 2.5rem;
   letter-spacing: 0.2px;
   margin-bottom: 10px;
@@ -35,30 +35,27 @@
 }
 
 .card-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  -webkit-display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .card-item__benefits {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  -webkit-display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .card-item__box {
-  -webkit-box-flex: 33.3333%;
-      -ms-flex: 33.3333%;
-          flex: 33.3333%;
+  -webkit-flex: 33.3333%;
+  -ms-flex: 33.3333%;
+  -moz-flex: 33.3333%;
+  flex: 33.3333%;
   text-align: center;
   border: 1px solid #23a6f0;
   border-radius: 10px;
@@ -77,36 +74,34 @@
   height: 52px;
   margin: 20px 0 50px 0;
   padding-top: 15px;
-  background-color: #23A6F0;
+  background-color: #23a6f0;
   border-radius: 5px;
   -webkit-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
 
 .card-item__btn a:hover {
-  background-color: #2DC071;
+  background-color: #2dc071;
 }
 
 .card-item__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  -webkit-display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
   margin-bottom: 15px;
 }
 
 .card-item__price {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  -webkit-display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: 35px;
 }
 
@@ -121,7 +116,7 @@
 }
 
 .card-item__title {
-  color: #252B42;
+  color: #252b42;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 2rem;
@@ -131,7 +126,7 @@
 }
 
 .price {
-  color: #23A6F0;
+  color: #23a6f0;
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.2px;
@@ -140,14 +135,14 @@
 }
 
 .currency {
-  color: #23A6F0;
+  color: #23a6f0;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5rem;
 }
 
 .period {
-  color: #8EC2F2;
+  color: #8ec2f2;
   font-weight: 600;
   letter-spacing: 0.2px;
   font-size: 0, 875rem;
@@ -155,11 +150,8 @@
 }
 
 .last-item {
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-content: flex-start;
+  align-items: center;
 }
 
 .item-img {
@@ -171,29 +163,28 @@
 }
 
 .price-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  -webkit-display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 
 .item-text {
-  color: #252B42;
+  color: #252b42;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 1.5rem;
 }
 
 .card {
-  background-color: #252B42;
+  background-color: #252b42;
   height: 705px;
 }
 
-.card .card-item__title, .card .card-item__item {
+.card .card-item__title,
+.card .card-item__item {
   color: #fff;
 }
 
@@ -207,13 +198,8 @@
 
 @media (max-width: 1024px) {
   .card-item {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   .card-item__box {
     width: 50%;
